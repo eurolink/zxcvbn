@@ -1,0 +1,25 @@
+{
+    "name": "eurolink/zxcvbn",
+    "type": "library",
+    "description": "A PHP Implementation of the password strength estimator zxcvbn by Dropbox.",
+    "keywords": ["zxcvbn", "password"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eurolink",
+            "email": "info@eurolink.co",
+            "homepage": "https://www.eurolink.co/"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eurolink\\zxcvbn\\": "src/"
+        }
+    }
+}
